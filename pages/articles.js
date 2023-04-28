@@ -1,7 +1,7 @@
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
-const articles = ({ articles }) => {
 
+const articles = ({ articles }) => {
   return (
     <>
       {articles.map(article => (
