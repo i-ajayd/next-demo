@@ -8,9 +8,9 @@ const article = ({article}) => {
     const { id } = router.query
   return (
     <>
-        <div className={styles.main}>This is article {id}, title: {article.title}
-            <Link className={styles.card} href='/'>Go Back</Link>
-        </div>
+      <div className={styles.main}>This is article {id}, title: {article.title}
+          <Link className={styles.card} href='/'>Go Back</Link>
+      </div>
     </>
   )
 }
